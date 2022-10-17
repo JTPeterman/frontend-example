@@ -5,7 +5,7 @@ title: Our Great Website
 
 <header id="page-header">
   <h1>
-    Our Great Website
+    Jim's Great Website
   </h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus. Maecenas aliquam vestibulum diam, quis condimentum orci sagittis vel. Sed elementum fermentum lectus, ut posuere enim imperdiet quis.</p>
   <ul>
@@ -172,5 +172,5 @@ title: Our Great Website
 </section>
 
 <footer>
-  <p>Copyright 2099</p>
+  <p>Copyright 2022</p>
 </footer>

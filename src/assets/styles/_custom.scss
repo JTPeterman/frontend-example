@@ -1,0 +1,61 @@
+$m1: #234385;
+$m2: #26618C;
+
+$a1: #7EBBD0;
+$a2: #2A2929;
+
+$sf: #F5F6F6;
+$s0: #191C19;
+
+$gutter: 20px;
+
+@mixin compartment {
+	max-width:1440px;
+	margin:0 auto;
+	display: block;
+}
+
+#navigation {
+	background-color:$m1;
+	color:$sf;
+	a {
+		color:$sf;
+		&:hover,
+		&:focus {
+			color:$a1;
+		}
+	}
+}
+
+#page-header {
+	height: calc(100vh - 62px);
+	color:$sf;
+	background:$m2;
+	position: relative;
+    overflow: hidden;
+	background-image:url('../images/hero-img.jpg');
+	background-size:cover;
+	background-position: top center;
+	h1 {
+		font-size:4rem;
+		text-align:center;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-bottom:$gutter * 2;
+	}
+	p {
+		text-align:center;
+		margin-bottom:$gutter;
+	}
+	ul {
+		list-style:none;
+		padding:0;
+		margin:0;
+		display: flex;
+		justify-content: center;
+
+	}
+	a {
+
+	}
+}
